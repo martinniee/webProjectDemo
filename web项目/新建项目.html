@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>新建项目</title>
+    <link rel="stylesheet" type="text/css"        href="css/bootstrap.min.css"> 
+    <!-- <link rel="stylesheet" type="text/css"        href="css/1.css">  -->
+    <link rel="stylesheet" type="text/css"        href="css/新建项目.css"> 
+    <link rel="stylesheet" href="css/新建信息系统-项目来源.css">
+    <script>
+                 function itemsource(){
+                       
+                     var  itemsource =document.getElementById("itemsource");
+                     var  itemsourcetwo =document.getElementById("itemsourcetwo");
+                     
+                     itemsourcetwo.style.display="block";
+                    
+    
+                 }
+                 function  itemcancel(){
+                    var  itemsourcespan = document.getElementById(" itemsourcespan");
+                    
+                    itemsourcetwo.style.display="none";
+    
+                 }
+            
+            
+            </script>
+</head>
+<body>
+                <head class="head">
+                                <nav class="navbar navbar-default">
+                                        <div class="container-fluid">
+                                            <!-- Brand and toggle get grouped for better mobile display -->
+                                            <div class="navbar-header">
+                                                <a href="index.html"> <p>科研资源管理共享平台</p></a>
+                                             </div>
+                                             <!-- Collect the nav links, forms, and other content for toggling -->
+                                            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                                                        
+                                                        <form class="navbar-form navbar-left">
+                                                            <div class="form-group">
+                                                                    <span class="glyphicon glyphicon-search "> </span>
+                                                                    <input type="text"  >
+                                                                    <a href="搜索.html"><span>搜索</span></a>
+                                                                    
+                                                            </div><span class="input">高级搜索</span> 
+                                                                 
+                                                        </form>
+                                                        <ul class="nav navbar-nav navbar-right">
+                                                                <li> <a href="index.html" ><span class="glyphicon glyphicon-home">首页</span></a></li>
+                                                                <li><span class="glyphicon glyphicon-user"></span>用户名</li>  
+                                                                <li><span class="glyphicon glyphicon-log-out"></span>退出</li>
+                                                        </ul>
+                                            </div><!-- /.navbar-collapse -->
+                                        </div><!-- /.container-fluid -->
+                                    </nav>
+                        </head>
+      
+      <center class="main">
+                            <span class="newitem">新建项目</span>
+        <table>
+                <tr>
+                        <td><span class="item1">项目名称</span> </td>
+                        <td><input type="text" class="item1a" colspan="2" ></td>
+                        <td><span class="item1c" >项目负责人</span><input type="text" class="item1b"></td>
+                </tr>
+                <tr>
+                         <td><span class="item1">项目牵头部门</span></td>
+                        <td> 
+                        <select name="" id="" class="item2a">
+                                        <option value="">所有部门</option>
+                                        <option value="">2</option>
+                                        <option value="">3</option>
+                                        <option value="">4</option>
+                        </select>
+                         </td>
+                        <td> <span class="item2c">项目参与部门</span></td>
+                        
+                        <td>
+                        <select name="" id="" class="item2d">
+                                        <option value="">所有部门</option>
+                                        <option value="">2</option>
+                                        <option value="">3</option>
+                                        <option value="">4</option>
+                        </select>
+                        </td>
+                </tr>
+                <tr>
+                        <td><span class="item1" >项目来源</span></td>
+                        <td> <input type="text" name="公开" class="item3b" placeholder="点击选择"  id="itemsource" onclick="itemsource()" style="display: inline-block;
+                                width: 278px;"></td>
+                               
+                        <td> <span class="item2c">密级</span></td>
+                        <td> <form action=""> <input type="radio" name="公开" class="item3"><span>公开</span> <input type="radio" name="公开"  class="item4"><span>申请访问</span> </form>   </td>
+                </tr>
+                <tr>
+                        <td><span class="item1">项目分类</span></td>
+                        <td>
+                                 <select name="" id="" class="item4b" >
+                                         <option value="" >科研项目类</option>
+                                        <option value="">2</option>
+                                        <option value="">3</option>
+                                        <option value="">4</option>
+                                </select>
+                                <select name="" id="" class="item4b" >
+                                                <option value="" >软件开发类（系统维护）</option>
+                                               <option value="">标准研制类（地方标准）</option>
+                                               <option value="">软课题研究</option>
+                                               <option value="">公共服务平台建设</option>
+                                </select>
+                        </td>
+
+                        <td><span class="item2c">项目层级</span></td>
+                        <td>
+                        <select name="" id="" class="item2d">
+                                        
+                                         <option value="">纵向国家级</option>
+                                         <option value="">2</option>
+                                         <option value="">3</option>
+                                         <option value="">4</option>
+                        </select>
+                         </td>
+                </tr>
+                <tr>
+                        <td> <span class="item1">项目签订方式</span></td>
+                        <td>
+                                        <select name="" id="" class="item5b" > 
+                                                       
+                                                         <option value="">任务书</option>
+                                                         <option value="">2</option>
+                                                         <option value="">3</option>
+                                                         <option value="">4</option>
+                                        </select>
+                        </td>
+                        <td><span class="item2c">是否审计</span></td>
+                        <td> <input type="radio" name="是" class="item6"><span>是</span> <input type="radio" name="是" class="item5"><span>否</span></td>
+                </tr>
+                <tr>
+                        <td> <span class="item1">项目产生结果</span>  </td>
+                        <td> <input type="checkbox" name="" class="item6b"> <span>标准</span>
+                                 <input type="checkbox" name=""> <span>研究报告</span>
+                                 <input type="checkbox" name=""><span class="item6c">会议</span>
+                                  <input type="checkbox" name=""><span>基础设备</span><input type="checkbox" name=""><span>数据库或数据包</span></td>
+                        <td></td>
+                        <td></td>
+                </tr>
+                <tr>
+                        <td><span class="item1">计划开始时间</span></td>
+                        <td><input id="date" type="date" class="item7d"></td>
+                        <td><span class="item7c">计划完成时间</span></td>
+                        <td><input id="date" type="date" class="item7e"></td>
+                </tr>
+                <tr>
+                        <td> <span class="item1">实际开始时间</span></td>
+                        <td><input id="date" type="date" class="item7d"></td>
+                        <td><span class="item2c">实际完成时间</span></td>
+                        <td><input id="date" type="date" class="item7e"></td>
+                </tr>
+                <tr>
+                            
+                                <!-- <input type="" name=""> -->
+                        <td> <span class="item1">上级支付或配套（万）</span></td>
+                        <td><input type="number" name=""  class="item7f"></td>
+                        <td><span class="item7b">客户或委托方支付（万）</span></td>
+                        <td><input type="number"placeholder="大于等于0" class="item7g"></td>
+                        <td><span class="item7a">院内自筹</span></td>
+                        <td><input type="number" name="" class="item7" placeholder="大于等于0"></td>
+                </tr>
+                <tr>
+                         
+                        <td><span class="item1" style="    margin-top: 19px;">项目总经费（万）</span></td>
+                        <td><li class="list-group-item disabled"  style="display: inline-block;
+                                width: 796px;"></li></td>
+                        <td></td>
+                        <td></td>
+                </tr>
+                <div  class="itemdetail">
+                <tr >
+                        <td> <span class="item1">项目简介</span></td>
+                        <td><textarea name="" id="" cols="300" rows="5" class="item11"></textarea></td>
+                       
+                </tr>
+        </div>
+        </table>
+     </div>
+
+       
+
+      </center>
+<!-- *********************************************** -->
+<!-- *********************************************** -->
+<!-- *********************************************** -->
+<div style="    padding-top: 19px;">
+
+        <span > <a href="#" style="padding: 6px 9px;
+                margin-left: 556px;
+                display: inline-block;
+                background: #0e90d2;
+                color: aliceblue;
+                font-size: 16px;
+                text-decoration:none;"> 新建项目</a></span>
+</div>
+
+      <div class="itemsource" id="itemsourcetwo" > 
+                <div class="itemsource-div"><span id="itemsourcespan" onclick=" itemcancel()">x </span><p class="itemsource-head">项目来源</p>  </div>
+                <div><input type="text" class="itemsource-input"> <span class="itemsource-search" >搜索</span> </div>
+                <div>
+                       <table class="itemsource-table">
+                           <tr>
+                               <td>层级</td>
+                               <td colspan="2" >单位</td>
+                               
+                               <td>操作</td>
+                           </tr>
+                           <tr>
+                               <td>国家级</td>
+                               <td colspan="2" >中华人名共和国科学技术部</td>
+                               
+                               <td> <span>添加</span> </td>
+                           </tr>
+                           <tr>
+                               <td>省级部</td>
+                               <td colspan="2" >广东省科学技术厅</td>
+                               
+                               <td> <span>添加</span> </td>
+                           </tr>
+                           <tr>
+                               <td>地级市</td>
+                               <td colspan="2" >深圳市发展和改革委员会</td>
+                               
+                               <td> <span>添加</span> </td>
+                           </tr>
+                           <tr>
+                               <td>政府部门</td>
+                               <td colspan="2" >深圳市市场和质量监督管理委员会</td>
+                               
+                               <td> <span>添加</span> </td>
+                           </tr>
+                           <tr class="itemsource-table-tr">
+                               <td>企业单位</td>
+                               <td colspan="2" >同方鼎欣信息技术有限公司</td>
+                               
+                               <td> <span>添加</span> </td>
+                       </table>
+              </div>
+       
+       
+                   
+                   <div class="itemsource-count"> <p>显示第1到第5条记录，总共68条记录</p></div>
+                   <div class="itemsource-divpage" >
+                           <span>&gt&gt</span>
+                           <span>1</span>
+                           <span>2</span>
+                           <span>3</span>
+                           <span>4</span>
+                           <span>5</span> 
+                           <span>6</span> 
+                    </div> 
+       
+       
+       </div>
+        <script    src="js/jquery-3.1.1.js">  </script> 
+        <script    src="js/bootstrap.min.js"></script>
+    
+</body>
+</html>

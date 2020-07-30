@@ -1,0 +1,85 @@
+.itemsource{
+    padding-left: 39px;
+    padding-bottom: 103px;
+    display: none;
+    position: absolute;
+    top: 129px;
+    left: 428px;
+    z-index: 99;
+    background: #f5f4f4;
+   }
+   .itemsource-div span{
+    float: right;
+    margin-right: 30px;
+    font-size: 16px;
+    margin-top: -1px;
+   }
+   .itemsource-head{
+    text-align: center;
+    font-size: 17px;
+   }
+   .itemsource-input{
+    
+    width: 90%;
+    display: inline-block;
+    height: 29.67px;
+    padding-top: 17px;
+    margin-right: 9px;
+    margin-bottom: 17px;
+   }
+   .itemsource-search{
+    padding: 1px 3px;
+    padding-right: 224px;
+    margin-left: -82px;
+   }
+   .itemsource-table tr td:nth-child(2) {
+    padding-right: 185px;
+   }
+   .itemsource-table tr td:first-child{
+    padding-right: 124px;
+   }
+   .itemsource-table{
+       border: 1px solid #dfdfdf;
+   }
+   .itemsource-table td {
+    padding: 11px 0;
+    padding-left: 20px;
+    border-bottom: 1px solid  #dfdfdf;
+    border-right: 1px solid #dfdfdf;
+   }
+   .itemsource-table-tr td{
+       border-bottom: none;
+   }
+   .itemsource-table tr td:nth-child(3){
+    border-right: none;
+    padding-right: 11px;
+   }
+   .itemsource-table span{
+    background: #0e90d2;
+    color: white;
+    padding: 3px 8px;
+   }
+   .itemsource-count{
+    padding-left: 609px;
+   }
+   .itemsource-divpage span{
+       border: 1px solid #dfdfdf;
+       padding: 2px 16px;
+       color: #3aa4d9;
+   }
+   .itemsource-divpage span:hover{
+            background: #0e90d2;
+            color: white;
+   }
+   .itemsource-divpage {
+    padding-left: 252px;
+   }
+   .itemsource-count p {
+    margin-left: -162px;
+    margin-right: 66px;
+   }
+   .itemsource-span{
+    background: #0e90d2;
+    color: white;
+    padding: 4px 8px;
+   }

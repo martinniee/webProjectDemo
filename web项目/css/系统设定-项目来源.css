@@ -1,0 +1,28 @@
+.itemsource{
+    position: absolute;
+    top: 123px;
+    left: 231px;
+    background: #fbf9f7;
+    margin-left: 70px;
+    padding: 22px 33px;
+    padding-bottom: 133px;
+}
+.itemsource-input{
+    display: inline-block;
+    width: 380px;
+    margin-bottom: 25px;
+}
+.itemsource-selection{
+    padding-right: 313px;
+}
+.itemsource-span{
+    margin-left: 167px;
+    border: 1px solid #dfdfdf;
+    padding: 4px 9px;
+    background: #19a7f0;
+    color: aliceblue;
+}
+/* .itemsource-div-withsubmit{
+    padding-top :16px;
+    
+} */

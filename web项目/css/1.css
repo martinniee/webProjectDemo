@@ -1,0 +1,173 @@
+/* head */
+/* 导航部分 */
+.container-fluid {
+    padding-right: 15px;
+    padding-left: 136px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.navbar-header  p {
+    margin: 14px 0 -8px;
+   
+}
+
+.navbar-default {
+    background-color: rgb(14,144,210);
+    border-color: #407ce4;
+}
+.form-group span  {
+    background: #3BB4F2;
+    color: #fdfdfd;
+}
+.form-group input {
+    margin: 0 -4px;
+    padding-bottom: 0px;
+  
+}
+form.navbar-form.navbar-left{
+    margin-left: 40px;
+}
+.navbar p{
+    color: #fdfdfd;
+    font-size: large;
+}
+
+.navbar-form  {
+    padding-top: 4px;
+    color: #180404;
+}
+.navbar-form span {
+    padding: 5px 7px;
+    }
+  
+.glyphicon-search{
+    color: #fdfdfd;
+}
+.input{
+    color: #fdfdfd; 
+    font-size: x-small;
+}
+  /* *************************** */
+    
+.navbar-nav li  {
+    padding-top: 3px;
+    line-height: 53px;
+    padding-right: 11px;
+    color: #ffffff;
+}
+.navbar-nav li a {
+    padding-right: 3px;
+   
+}
+.navbar-nav .glyphicon-home{
+    color: #ffffff;
+}
+
+
+/* head */
+/* 导航部分 */
+/* container nav */
+.dropdown .nav {
+    margin-left: 318px;
+    font-weight: 700;
+    font-size: larger;
+}
+.nav .head{
+    margin-right: -3px;
+    padding-left: 148px;
+    font-weight: bold;
+}
+.nav .dropdown-toggle{
+    font-weight: bold;
+}
+/* container nav */
+
+/* container right */
+img {
+    vertical-align: middle;
+    width: 85px;
+    height: 91.67px;
+    margin-bottom: 8px;
+    margin-right: 13px;
+}
+
+/* div.right {
+    float: right;
+    margin-top: 10px;
+    margin-right: 77px;
+} */
+/* container right */
+
+/* container center */
+
+/* .center .nav .dropdown-toggle .caret{
+} */
+/* .nav1 span{
+    margin-left: 19px;
+    
+} */
+.nav1 .s0{
+    margin-left: 145px;
+        
+    }
+.nav1 .s1{
+margin-left: 40px;
+    
+}
+.nav1 .s2{
+    margin-left: 330px;
+        
+}
+.nav1 .s3{
+    margin-left: 10px;
+        
+}
+.nav1 .s4{
+    margin-left: 45px;
+        
+}
+/* ******************* */
+.center div {
+    margin-left: -485px;
+}
+
+.center div select  {
+    background: #2daced;
+    color: white;
+    padding: 3px 2px;
+}
+/* *************************************** */
+.itemnum {
+    padding-left: 145px;
+    
+}
+
+.itemname{
+        padding-left: 40px;
+}
+
+.itemstatus {
+    background: #5fb95e;
+    margin-left: 63px;
+    padding: 3px 7px;
+    color: aliceblue;
+}
+
+.item1{
+margin-left: 55px;
+
+}
+.item2{
+margin-left: 204px;
+}
+.item3{
+    margin-left: 148px;
+}
+.item4{
+    margin-left: 152px;
+}
+.planover{
+    margin-left: 24px;
+}
+/* ************************ */
+/* container  center*/
